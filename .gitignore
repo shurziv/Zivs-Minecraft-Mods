@@ -1,0 +1,47 @@
+```
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+*.out
+build/
+dist/
+
+# Dependencies
+.gradle/
+libs/
+!lib/  # Don't ignore lib folder if it contains source code
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Gradle
+.gradle/
+build/
+!gradle/  # Don't ignore gradle wrapper if it exists
+*.gradle
+!gradlew
+!gradlew.bat
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+!src/  # Don't ignore src folder
+```
